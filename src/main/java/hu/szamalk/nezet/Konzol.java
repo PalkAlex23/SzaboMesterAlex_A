@@ -2,6 +2,9 @@ package hu.szamalk.nezet;
 
 import hu.szamalk.modell.Kolcsonzo;
 
+import java.io.File;
+import java.nio.file.Path;
+
 public class Konzol {
     public static void main(String[] args) {
         feladatok();
@@ -19,10 +22,15 @@ public class Konzol {
         kolcsonzo.megjelenit();
     }
 
+    /*
     private static void jarmuvekFajlban() {
+        Kolcsonzo kolcsonzo = new Kolcsonzo();
+        kolcsonzo.kiiras();
+        kolcsonzo.beolvas();
     }
+    */
 
-    private static void melyikNaponMelyikAuto() {
-    }
+    /*private static void melyikNaponMelyikAuto() {
+    }*/
 
 }

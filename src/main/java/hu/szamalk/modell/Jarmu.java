@@ -1,9 +1,9 @@
 package hu.szamalk.modell;
 
-import java.io.Serializable;
+import java.io.*;
 import java.util.Objects;
 
-public class Jarmu implements Serializable {
+public class Jarmu {
     private String rendszam;
     private Minosites minosites;
 
@@ -29,10 +29,6 @@ public class Jarmu implements Serializable {
 
     public void setMinosites(Minosites minosites) {
         this.minosites = minosites;
-    }
-
-    public void kiiras() {
-
     }
 
     @Override

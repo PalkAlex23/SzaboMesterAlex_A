@@ -19,7 +19,7 @@ public class GuiForm extends JFrame {
 
     public GuiForm() {
         setContentPane(pnlMain);
-        setSize(300, 400);
+        setSize(500, 400);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         setLocationRelativeTo(null);
 
@@ -38,7 +38,7 @@ public class GuiForm extends JFrame {
         mnuBeolvas.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFileChooser kivalaszto = new JFileChooser(new File(System.getProperty("jarmu.bin")));
+                JFileChooser kivalaszto = new JFileChooser();
                 kivalaszto.showSaveDialog(null);
             }
         });
